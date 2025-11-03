@@ -1,0 +1,51 @@
+/* Header Container */
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #0f172a; /* Dark background */
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.nav-header img {
+  width: 120px;
+  cursor: pointer;
+}
+
+/* Navigation list */
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-list li a:hover {
+  color: #38bdf8; /* Light blue hover */
+}
+
+/* Logout button */
+.nav-header button {
+  background-color: #ef4444; /* Red */
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-header button:hover {
+  background-color: #dc2626; /* Darker red on hover */
+}
